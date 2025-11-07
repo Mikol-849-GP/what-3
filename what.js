@@ -4,10 +4,10 @@ function poleProstokąta() {
   var p = b1 * b2
   if (b1 == b2) {
     alert("To jest kwadrat")
-    alert("Pole kwadratu to:" `p`)
+    alert("Pole kwadratu to:" + p)
   }
   else {
-    alert("Pole prostokąta to:" `p`)
+    alert("Pole prostokąta to:" + p)
   }
 }
 poleProstokąta()
